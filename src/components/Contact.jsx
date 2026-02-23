@@ -28,11 +28,29 @@ const Contact = () => {
     };
   }, []);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formData);
-  };
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const response = await fetch("https://formspree.io/f/xykdbzwo", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(formData)
+    });
+
+    if (response.ok) {
+      alert("📬 Message sent successfully!");
+      setFormData({ name: "", email: "", message: "" });
+    } else {
+      alert("❌ Failed to send message. Please try again.");
+    }
+  } catch (error) {
+    console.error("Form submit error:", error);
+    alert("❌ Something went wrong. Please try again.");
+  }
+};
 
   const contactInfo = [
     {
