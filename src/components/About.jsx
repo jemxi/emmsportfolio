@@ -43,14 +43,12 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-neutral-400 leading-relaxed">
               <p>
-                I’m an aspiring IT professional with hands-on experience building web applications and supporting
-                real-world IT operations. I’ve worked with PHP, React, ASP.NET, and modern frontend tools, and I
-                focus on creating user-friendly systems with clean design and efficient code.
-              </p>
+                I’m a GoHighLevel Funnel & Full-Stack Developer focused on building modern, conversion driven digital experiences for businesses and brands. I specialize in designing responsive funnels, landing pages, and premium user interfaces using GoHighLevel, React, HTML, CSS, and JavaScript.
 
-              <p>
-                I’ve built multiple projects that emphasize usability, performance, and maintainability, helping
-                turn ideas into practical digital solutions that solve real problems.
+I combine clean frontend development with modern UI/UX design to create visually engaging and user friendly experiences optimized for responsiveness, performance, and lead generation. From custom coded sections to polished landing page layouts, I enjoy turning creative ideas into functional digital solutions.
+
+I’m passionate about building sleek, scalable, and high quality web experiences that not only look premium but also deliver strong usability and conversion focused results.
+
               </p>
 
               <p>

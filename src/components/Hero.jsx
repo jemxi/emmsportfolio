@@ -57,7 +57,7 @@ const Hero = () => {
 
         <div className="animate-in opacity-0 translate-y-4 transition-all duration-500">
           <span className="inline-block px-4 py-1.5 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold tracking-wider uppercase rounded-full mb-6">
-            Available for Opportunities
+            LET ME DEVELOP YOUR DIGITAL WORLD
           </span>
         </div>
 
