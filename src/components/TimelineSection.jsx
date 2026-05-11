@@ -9,13 +9,28 @@ const TimelineSection = () => {
   // Combined Experience + Education
   const timelineData = [
     // EXPERIENCE
+   {
+type: 'experience',
+title: 'GoHighLevel Funnel & Landing Page Designer',
+organization: 'Ninja Automations - Remote, Houston, USA',
+date: 'March 2026 - May 2026',
+description: [
+'Designed premium GoHighLevel funnels and landing pages for lead generation campaigns',
+'Built responsive funnel sections using HTML, CSS, and JavaScript for custom layouts and interactions',
+'Created visually engaging funnel designs optimized for mobile responsiveness and user experience',
+'Customized forms, page sections, and branding elements based on client requirements and marketing goals',
+'Collaborated with the creative team to recreate and improve high converting funnel designs',
+],
+},
+
+
+
     {
       type: 'experience',
       title: 'IT Intern / Assistant Team Lead',
       organization: 'Hyundai Quezon Avenue',
-      date: 'January 2026 - Present',
+      date: 'January 2026 - March 2026',
       description: [
-        'Led a team of junior developers in implementing IT solutions',
         'Managed technical support operations and system maintenance',
         'Collaborated with cross-functional teams to optimize workflows',
         'Developed internal tools to improve operational efficiency',

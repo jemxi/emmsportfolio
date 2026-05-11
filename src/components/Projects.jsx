@@ -23,20 +23,6 @@ const Projects = () => {
       liveUrl: 'https://internship-track.vercel.app/',
       githubUrl: 'https://github.com/jemxi/internship-track',
     },
-    {
-      title: 'Portfolio Templates',
-      category: 'UI/UX Design',
-      description: 'Collection of modern, responsive portfolio templates designed in Figma with complete design systems.',
-      tech: ['Figma', 'Adobe XD', 'Design Systems'],
-      gradient: 'from-purple-500 to-pink-600',
-    },
-    {
-      title: 'Task Management App',
-      category: 'Mobile-First Web App',
-      description: 'Collaborative task management tool with drag-and-drop interface and real-time team synchronization.',
-      tech: ['React', 'Express', 'Socket.io', 'PostgreSQL'],
-      gradient: 'from-orange-500 to-red-600',
-    },
   ];
 
   useEffect(() => {

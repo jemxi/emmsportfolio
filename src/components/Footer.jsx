@@ -59,7 +59,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">John Emmanuel S. Menor</h3>
             <p className="text-neutral-400 text-sm leading-relaxed mb-4">
-              IT Student, Web Developer, and UI/UX Designer passionate about creating
+              Full Stack Developer, and UI/UX Designer passionate about creating
               meaningful digital experiences.
             </p>
             <div className="flex items-center gap-3">
@@ -115,10 +115,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-neutral-500">
           <p>© {currentYear} John Emmanuel S. Menor. All rights reserved.</p>
-          <p>
-            Built with <span className="text-emerald-400">React</span> &{' '}
-            <span className="text-emerald-400">Tailwind CSS</span>
-          </p>
+      
         </div>
       </div>
     </footer>
